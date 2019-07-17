@@ -1,0 +1,188 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css);
+
+*{
+    font-family: 'Mandali', sans-serif;
+}
+
+body {
+    padding: 30px 0px 60px;
+}
+.panel > .list-group .list-group-item:first-child {
+    /*border-top: 1px solid rgb(204, 204, 204);*/
+}
+@media (max-width: 767px) {
+    .visible-xs {
+        display: inline-block !important;
+    }
+    .block {
+        display: block !important;
+        width: 100%;
+        height: 1px !important;
+    }
+}
+#back-to-bootsnipp {
+    position: fixed;
+    top: 10px; right: 10px;
+}
+
+
+.c-search > .form-control {
+   border-radius: 0px;
+   border-width: 0px;
+   border-bottom-width: 1px;
+   font-size: 1.3em;
+   padding: 12px 12px;
+   height: 44px;
+   outline: none !important;
+}
+.c-search > .form-control:focus {
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none;
+}
+.c-search > .input-group-btn .btn {
+   border-radius: 0px;
+   border-width: 0px;
+   border-left-width: 1px;
+   border-bottom-width: 1px;
+   height: 44px;
+}
+
+
+.c-list {
+    padding: 0px;
+    min-height: 44px;
+}
+.title {
+    display: inline-block;
+    font-size: 1.7em;
+    font-weight: bold;
+    padding: 5px 15px;
+}
+ul.c-controls {
+    list-style: none;
+    margin: 0px;
+    min-height: 44px;
+}
+
+ul.c-controls li {
+    margin-top: 8px;
+    float: left;
+}
+
+ul.c-controls li a {
+    font-size: 1.7em;
+    padding: 11px 10px 6px;   
+}
+ul.c-controls li a i {
+    min-width: 24px;
+    text-align: center;
+}
+
+ul.c-controls li a:hover {
+    background-color: rgba(51, 51, 51, 0.2);
+}
+
+.c-toggle {
+    font-size: 1.7em;
+}
+
+.name {
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+.c-info {
+    padding: 5px 10px;
+    font-size: 1.25em;
+}
+
+a{
+    text-decoration :none;
+    color:black;
+}
+
+a:hover{
+    text-decoration:none;
+    color:black;
+}
+
+#logoalc{
+    display:block;
+    background: url("../../images/milknhoney.png")center no-repeat;
+    background-size: contain;
+    position:relative;
+    
+    height:150px;
+    width:150px;
+   margin: 0%auto;
+}
+
+
+
+
+
+h3,h1,p{
+
+width: 500px;
+margin: 0%auto;
+padding-top: 10px;
+}
+
+
+
+/* Style the list */
+ul.breadcrumb {
+    padding: 10px 16px;
+    list-style: none;
+    background-color: #eee;
+  }
+  
+  /* Display list items side by side */
+  ul.breadcrumb li {
+    display: inline;
+    font-size: 18px;
+  }
+  
+  /* Add a slash symbol (/) before/behind each list item */
+  ul.breadcrumb li+li:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+  
+  /* Add a color to all links inside the list */
+  ul.breadcrumb li a {
+    color: #0275d8;
+    text-decoration: none;
+  }
+  
+  /* Add a color on mouse-over */
+  ul.breadcrumb li a:hover {
+    color: #01447e;
+    text-decoration: underline;
+  }
+
+
+
+  
+  @media (min-width: 530px) {
+   
+    .x{
+
+        display:none;
+    }
+
+}
+
+@media (max-width: 530px) {
+   
+ 
+.breadcrumb{
+    display: none;
+}
+.linkstodelete{
+    display:none;
+}
+
+}
